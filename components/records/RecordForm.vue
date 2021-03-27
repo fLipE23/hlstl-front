@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "RecordForm",
+  name: "recordForm",
   methods: {
     saveRecord() {
       this.$store.dispatch('records/createRecord', {
